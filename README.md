@@ -1,7 +1,6 @@
 
 pragma solidity ^0.4.22;
 pragma experimental ABIEncoderV2;
-
 contract StringFunctions{
     string[] stringarrays = ["Koti","Rama","Murthy","Pandey","Medha"];
     string public concatedString = concat(stringarrays);
